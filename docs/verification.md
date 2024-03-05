@@ -25,7 +25,7 @@ Local checks executed on 29 October 2026:
 
 Coverage excludes startup and demo seeding. The worker scheduler is also exercised by browser tests, which are not included in Vitest's coverage calculation. These numbers measure this executed suite; they are not a security certification or a claim that untested paths cannot fail.
 
-Local Docker execution was unavailable on the development host. The GitHub Actions workflow runs the same core checks on Ubuntu and includes a production image build. Its actual result is recorded after the first remote run.
+Local Docker execution was unavailable on the development host. The [first main-branch CI run](https://github.com/the-devcraft/opsflow/actions/runs/40777841725), for commit `1d2c32a`, completed successfully on Ubuntu. Its core checks, Chromium suite, production dependency audit, and production Docker image build all passed. A successful image build does not by itself verify a deployed container's runtime behavior or the Compose integration stack.
 
 ## Important test cases
 

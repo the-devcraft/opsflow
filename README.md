@@ -1,5 +1,7 @@
 # Opsflow
 
+[![Quality checks](https://github.com/the-devcraft/opsflow/actions/workflows/ci.yml/badge.svg)](https://github.com/the-devcraft/opsflow/actions/workflows/ci.yml)
+
 An operations workspace for requests that need an independent decision.
 
 A team member drafts a request, submits it, and gets a decision from another person. The request, decision, audit record, and queued notification stay consistent—even when two reviewers act at the same time or a worker stops halfway through delivery.
