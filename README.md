@@ -130,6 +130,6 @@ docs/             Architecture, security, API, operations, evidence
 
 ## Provenance
 
-Opsflow was implemented for this portfolio. No source files from the reference projects were imported. Their problem-focused documentation informed the presentation approach; see [references and provenance](docs/provenance.md). External packages retain their own licenses. Work dates reflect when this implementation was created.
+Opsflow was implemented for this portfolio. No source files from the reference projects were imported. Their problem-focused documentation informed the presentation approach; see [references and provenance](docs/provenance.md). External packages retain their own licenses.
 
 Licensed under [MIT](LICENSE).

@@ -9,4 +9,4 @@ The following public projects were inspected as references:
 
 Reference checkouts were kept outside this repository. No assets, fixtures, algorithms, or source modules were imported from them. Dependencies listed in package.json retain their upstream licenses.
 
-The repository's commit dates reflect the implementation period.
+Commit timestamps are repository metadata; use the dated verification record for evidence of when checks were executed.
