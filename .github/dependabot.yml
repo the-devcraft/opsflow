@@ -5,6 +5,12 @@ updates:
     schedule:
       interval: weekly
     open-pull-requests-limit: 3
+    ignore:
+      # Match the Node 24 runtime and the compiler API supported by typescript-eslint.
+      - dependency-name: '@types/node'
+        versions: ['>=25']
+      - dependency-name: typescript
+        versions: ['>=7']
     groups:
       development-tools:
         dependency-type: development
