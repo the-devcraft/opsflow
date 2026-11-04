@@ -92,6 +92,8 @@ GitHub Actions runs formatting, linting, type checking, integration tests, a pro
 
 ## Development
 
+See [the contribution guide](CONTRIBUTING.md) for local validation, dependency updates, and protected-branch merge requirements.
+
 ```sh
 # Temporary database, seeded accounts, and UI hot reload:
 pnpm dev:demo
